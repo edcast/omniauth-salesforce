@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in omniauth-salesforce.gemspec
+# Specify your gem's dependencies in omniauth-salesforce-partners-partners.gemspec
 gemspec
 
 group :development, :test do
