@@ -82,17 +82,17 @@ module OmniAuth
 
     end
 
-    class SalesforceSandbox < OmniAuth::Strategies::SalesforcePartners
-      default_options[:client_options][:site] = 'https://test.salesforce.com'
-    end
-
-    class DatabaseDotCom < OmniAuth::Strategies::SalesforcePartners
-      default_options[:client_options][:site] = 'https://login.database.com'
-    end
-
-    class SalesforcePreRelease < OmniAuth::Strategies::SalesforcePartners
-      default_options[:client_options][:site] = 'https://prerellogin.pre.salesforce.com/'
-    end
+    # class SalesforceSandbox < OmniAuth::Strategies::SalesforcePartners
+    #   default_options[:client_options][:site] = 'https://test.salesforce.com'
+    # end
+    #
+    # class DatabaseDotCom < OmniAuth::Strategies::SalesforcePartners
+    #   default_options[:client_options][:site] = 'https://login.database.com'
+    # end
+    #
+    # class SalesforcePreRelease < OmniAuth::Strategies::SalesforcePartners
+    #   default_options[:client_options][:site] = 'https://prerellogin.pre.salesforce.com/'
+    # end
 
   end
 end
