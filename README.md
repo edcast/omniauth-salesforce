@@ -20,7 +20,7 @@ require "omniauth-salesforce-users"
 class MyApplication < Sinatra::Base
   use Rack::Session
   use OmniAuth::Builder do
-    provider :salesforce, ENV['SALESFORCE_KEY'], ENV['SALESFORCE_SECRET']
+    provider :salesforce-user, ENV['SALESFORCE_KEY'], ENV['SALESFORCE_SECRET']
   end
 end
 ```
