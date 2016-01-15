@@ -1,5 +1,5 @@
 module OmniAuth
-  module Salesforce
+  module SalesforceUsers
     VERSION = "1.0.4"
   end
 end

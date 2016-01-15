@@ -4,14 +4,14 @@ require File.expand_path('../lib/omniauth-salesforce/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Richard Vanhook"]
   gem.email         = ["rvanhook@salesforce.com"]
-  gem.description   = %q{OmniAuth strategy for salesforce.com.}
-  gem.summary       = %q{OmniAuth strategy for salesforce.com.}
+  gem.description   = %q{OmniAuth strategy for salesforce.com users.}
+  gem.summary       = %q{OmniAuth strategy for salesforce.com users.}
   gem.homepage      = "https://github.com/realdoug/omniauth-salesforce"
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   gem.files         = `git ls-files`.split("\n")
   gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
-  gem.name          = "omniauth-salesforce"
+  gem.name          = "omniauth-salesforceusers"
   gem.require_paths = ["lib"]
   gem.version       = OmniAuth::Salesforce::VERSION
   gem.license       = "MIT"
