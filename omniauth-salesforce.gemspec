@@ -13,7 +13,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   gem.name          = "omniauth-salesforceusers"
   gem.require_paths = ["lib"]
-  gem.version       = OmniAuth::Salesforce::VERSION
+  gem.version       = OmniAuth::Salesforceusers::VERSION
   gem.license       = "MIT"
 
   gem.add_dependency 'omniauth', '~> 1.0'
