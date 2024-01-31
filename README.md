@@ -1,6 +1,6 @@
-# omniauth-salesforce
+# omniauth-salesforce-partners
 
-[OmniAuth](https://github.com/intridea/omniauth) Strategy for [salesforce.com](salesforce.com).
+[OmniAuth](https://github.com/intridea/omniauth) Strategy for [salesforce.com](salesforce.com) Partners.
 
 Note: This is a fork of the [original](https://github.com/richardvanhook/omniauth-salesforce) project and is now the main repository for the omniauth-salesforce gem.
 
@@ -15,12 +15,12 @@ Note: This is a fork of the [original](https://github.com/richardvanhook/omniaut
 ```ruby
 require "sinatra"
 require "omniauth"
-require "omniauth-salesforce"
+require "omniauth-salesforce-partners"
 
 class MyApplication < Sinatra::Base
   use Rack::Session
   use OmniAuth::Builder do
-    provider :salesforce, ENV['SALESFORCE_KEY'], ENV['SALESFORCE_SECRET']
+    provider :salesforce-partner, ENV['SALESFORCE_KEY'], ENV['SALESFORCE_SECRET']
   end
 end
 ```
