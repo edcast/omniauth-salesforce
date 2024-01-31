@@ -6,5 +6,5 @@ end
 
 guard 'bundler' do
   watch('Gemfile')
-  watch('omniauth-salesforce-partners.gemspec')
+  watch('omniauth-salesforcepartners.gemspec')
 end

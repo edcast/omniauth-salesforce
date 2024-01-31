@@ -7,7 +7,7 @@ require 'rspec'
 require 'rack/test'
 require 'webmock/rspec'
 require 'omniauth'
-require 'omniauth-salesforce-partners'
+require 'omniauth-salesforcepartners'
 
 RSpec.configure do |config|
   config.include WebMock::API

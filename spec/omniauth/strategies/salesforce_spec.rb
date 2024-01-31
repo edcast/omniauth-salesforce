@@ -1,12 +1,12 @@
 require 'spec_helper'
 
-describe OmniAuth::Strategies::Salesforce::Partners do
+describe OmniAuth::Strategies::SalesforcePartners do
 	strategy = nil
 	before do
 		OmniAuth.config.test_mode = true
 		rack_app = []
 		rack_app.stub :call
-		strategy = OmniAuth::Strategies::Salesforce::Partners.new rack_app, 'Consumer Key', 'Consumer Secret'
+		strategy = OmniAuth::Strategies::SalesforcePartners.new rack_app, 'Consumer Key', 'Consumer Secret'
 	end
 	describe "request_phase" do
 		env = nil
