@@ -1,6 +1,6 @@
-# omniauth-salesforce
+# omniauth-salesforceusers
 
-[OmniAuth](https://github.com/intridea/omniauth) Strategy for [salesforce.com](salesforce.com).
+[OmniAuth](https://github.com/intridea/omniauth) Strategy for [salesforce.com](salesforce.com) Users.
 
 Note: This is a fork of the [original](https://github.com/richardvanhook/omniauth-salesforce) project and is now the main repository for the omniauth-salesforce gem.
 
@@ -15,7 +15,7 @@ Note: This is a fork of the [original](https://github.com/richardvanhook/omniaut
 ```ruby
 require "sinatra"
 require "omniauth"
-require "omniauth-salesforce"
+require "omniauth-salesforce-users"
 
 class MyApplication < Sinatra::Base
   use Rack::Session
